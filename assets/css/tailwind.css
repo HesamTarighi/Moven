@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply font-gilroy-medium;
+    }
+
+    input {
+        @apply outline-none !important;
+    }
+}
+
+@layer components {
+    /* btn */
+    .btn {
+        @apply btn-lg rounded-full text-white transition-all duration-300;
+    }
+        /* theme */
+        .btn-primary {
+            @apply bg-primary hover:bg-fourth;
+        }
+        .btn-glass {
+            @apply bg-primary/20 hover:bg-fourth/20;
+        }
+        /* size */
+        .btn-lg {
+            @apply px-8 py-3;
+        }
+        .btn-md {
+            @apply px-6 py-3;
+        }
+        .btn-sm {
+            @apply px-4 py-2;
+        }
+}
+
+@layer utilities {
+    /* position */
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .center-y {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .center-x {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
