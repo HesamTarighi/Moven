@@ -20,7 +20,7 @@
                             <!-- avatar -->
                             <img src="~/assets/images/avatar.png" class="w-[25px] h-[25px]" >
                             <!-- name -->
-                            <span class="text-[13px]"> James Band </span>
+                            <span class="text-[13px]"> Harry Potter </span>
                         </div>
                         <!-- dot between -->
                         <span> <img src="~/assets/icons/dot.png" class="w-[10px] h-[10px]" /> </span>

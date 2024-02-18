@@ -1,13 +1,11 @@
 <template>
     <TemplateContainerT class="bg-secondary py-16" :title="'Top hotels for you'">
         <div class="relative">
-            <button class="px-[10px] py-[10px] border border-primary/20 rounded-full z-50 absolute center-y left-[75px] max-sm:bg-black max-sm:left-1" @click="swiperProps.slidePrev()">
-                <Icon iconType="material-rounded" iconName="left" iconSize="20" iconColor="101010" class="max-sm:hidden" />
-                <Icon iconType="material-rounded" iconName="left" iconSize="20" iconColor="ffffff" class="sm:hidden" />
+            <button class="w-[45px] h-[45px] bg-black rounded-full flex items-center justify-center z-50 absolute center-y left-[75px] max-sm:left-4" @click="swiperProps.slidePrev()">
+                <Icon iconType="material-rounded" iconName="left" iconSize="20" iconColor="ffffff" />
             </button>
-            <button class="px-[10px] py-[10px] border border-primary/20 rounded-full z-50 absolute center-y right-[75px] max-sm:bg-black max-sm:right-1" @click="swiperProps.slideNext()">
-                <Icon iconType="material-rounded" iconName="right" iconSize="20" iconColor="101010" class="max-sm:hidden" />
-                <Icon iconType="material-rounded" iconName="right" iconSize="20" iconColor="ffffff" class="sm:hidden" />
+            <button class="w-[45px] h-[45px] bg-black rounded-full flex items-center justify-center z-50 absolute center-y right-[75px] max-sm:right-4" @click="swiperProps.slideNext()">
+                <Icon iconType="material-rounded" iconName="right" iconSize="20" iconColor="ffffff" />
             </button>
             <Swiper
             :slidesPerView="'auto'"

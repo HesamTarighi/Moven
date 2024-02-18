@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     head: {
       title: 'Moven',
       link: [
-        { rel: 'icon', type: 'image/png', href: '/icon.png' }
+        { rel: 'icon', type: 'image/png', href: '/icon30.png' }
       ]
     }
   },
@@ -37,13 +37,13 @@ export default defineNuxtConfig({
   pwa: {
     registerType: 'autoUpdate',
     manifest: {
-      name: "Example 1",
-      short_name: "example1",
+      name: "MOVEN",
+      short_name: "Moven",
       display: "standalone",
       start_url: ".",
       background_color: "#000000",
       theme_color:"#ffffff",
-      description: "Example web app.",
+      description: "Moven web app.",
       icons: [
         {
           src: '/icon192.png',

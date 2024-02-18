@@ -1,11 +1,11 @@
 <template>
     <TemplateSectionT :title="'Recommended destination'">
         <div class="relative">
-            <button class="px-[20px] py-[20px] border border-primary/20 rounded-full absolute -top-[125px] right-[80px] z-50 max-lg:-top-[110px] max-md:-top-[80px] max-md:px-[15px] max-md:py-[15px] max-sm:right-[60px] max-sm:px-[10px] max-sm:py-[10px] max-sm:bg-primary max-sm:left-0 max-sm:center-y" @click="swiperProps.slidePrev()">
+            <button class="w-[70px] h-[70px] border border-primary/20 rounded-full absolute -top-[125px] right-[75px] z-50 flex justify-center items-center max-lg:-top-[110px] max-md:-top-[80px] max-md:w-[55px] max-md:h-[55px] max-sm:right-[60px] max-sm:w-[45px] max-sm:h-[45px] max-sm:bg-primary max-sm:left-0 max-sm:center-y" @click="swiperProps.slidePrev()">
                 <Icon iconType="material-rounded" iconName="left" iconSize="25" iconColor="101010" class="max-sm:hidden" />
                 <Icon iconType="material-rounded" iconName="left" iconSize="25" iconColor="ffffff" class="sm:hidden" />
             </button>
-            <button class="px-[20px] py-[20px] border border-primary/20 rounded-full absolute -top-[125px] right-0 z-50 max-lg:-top-[110px] max-md:-top-[80px] max-md:px-[15px] max-md:py-[15px] max-sm:px-[10px] max-sm:py-[10px] max-sm:bg-primary max-sm:center-y" @click="swiperProps.slideNext()">
+            <button class="w-[70px] h-[70px] border border-primary/20 rounded-full absolute -top-[125px] right-0 z-50 flex justify-center items-center max-lg:-top-[110px] max-md:-top-[80px] max-md:w-[55px] max-md:h-[55px] max-sm:w-[45px] max-sm:h-[45px] max-sm:bg-primary max-sm:center-y" @click="swiperProps.slideNext()">
                 <Icon iconType="material-rounded" iconName="right" iconSize="25" iconColor="101010" class="max-sm:hidden" />
                 <Icon iconType="material-rounded" iconName="right" iconSize="25" iconColor="ffffff" class="sm:hidden" />
             </button>
